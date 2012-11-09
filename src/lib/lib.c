@@ -29,7 +29,9 @@
 #include "settings.h"
 
 #ifndef SOX_OPTION_DEFAULT
+#ifdef sox_option_default
 #define SOX_OPTION_DEFAULT sox_option_default
+#endif
 #endif
 
 static const short sound_icon[]={ 1097, 9442, 15735, 15534, 9724, -62,
